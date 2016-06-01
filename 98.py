@@ -1,4 +1,6 @@
 # Traverse the tree to a list, then find it sorted or not.
+# Method 2:
+# Recursively compare the nodes in the tree, [value of left nodes] < root.val and root.val < [value of right nodes].
 class Solution(object):
     def isValidBST(self, root):
         """
