@@ -1,4 +1,6 @@
-# Newton's method
+# Solution 1: Newton's method
+# Solution 2: binary search
+# Solution 3: any square number = 1 + 3 + 5 + 7 + ... + 2*n + 1, since n^2 - (n-1)^2 = 2n - 1, then do the summation
 class Solution(object):
     def isPerfectSquare(self, num):
         """
