@@ -1,4 +1,5 @@
 # Use a hashtable to store the values and detect duplicates.
+# It is sorted list, so no need to use hashtable.
 class Solution(object):
     def deleteDuplicates(self, head):
         """
