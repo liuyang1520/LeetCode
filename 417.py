@@ -22,6 +22,7 @@
 [0, 0, 0, 0, 0, 0]
 
 Wrong answer
+DP cannot solve the problem.
 Next time need to read question carefully, I assume the water is in the center, which is totally wrong.
 """
 class Solution(object):
