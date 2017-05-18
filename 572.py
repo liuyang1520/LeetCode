@@ -1,6 +1,9 @@
 """
 If a node is not none, then recursively compare itself, left, right, to the subtree t.
 When compare two subtrees, recursively compare the root value, left, then right.
+
+Another solution is to flatten trees into strings then compare two string.
+Need to a special strings for distinguish parent, child, and empty nodes.
 """
 class Solution(object):
     def isSubtree(self, s, t):
