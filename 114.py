@@ -36,3 +36,20 @@ class Solution(object):
                 root.right = root.left
                 root.left = None
             root = root.right
+
+
+# recursive solution
+class Solution(object):
+    def preorderTraversal(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[int]
+        """
+        if root == None:
+            return []
+        res = [root.val]
+        if root.left:
+            res += self.preorderTraversal(root.left)
+        if root.right:
+            res += self.preorderTraversal(root.right)
+        return res
