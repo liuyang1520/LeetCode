@@ -3,12 +3,7 @@ Use a map count the frenquency of each char.
 Better solution, use xor to iterate both strings.
 */
 func findTheDifference(s string, t string) byte {
-    if len(s) < len(t) {
-        temp := t
-        t = s
-        s = temp
-    }
-    counter1, counter2 := counter(s), counter(t)
+    counter1, counter2 := counter(t), counter(s)
     for key, value := range counter1 {
         if _value, ok := counter2[key]; !(ok && _value == value)  {
             return byte(key)
