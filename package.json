@@ -1,0 +1,27 @@
+{
+  "name": "leetcode-solution",
+  "version": "1.0.0",
+  "description": "LeetCode Solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuyang1520/LeetCode.git"
+  },
+  "keywords": [
+    "LeetCode",
+    "algorithm"
+  ],
+  "author": "Marvin Liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liuyang1520/LeetCode/issues"
+  },
+  "homepage": "https://github.com/liuyang1520/LeetCode#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-tap": "^1.0.1"
+  }
+}
