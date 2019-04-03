@@ -1,6 +1,6 @@
 """
 @difficulty: easy
-@tags: misc
+@tags: bit
 @notes: subsum = subsum * 2 + new_digit
 """
 class Solution(object):
