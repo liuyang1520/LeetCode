@@ -37,5 +37,5 @@ def bs(sortedArray, target):
             left = mid + 1
         else:
             right = mid
-    return left
+    return left if left < len(sortedArray) else -1
 ```
