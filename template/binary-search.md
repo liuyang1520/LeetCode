@@ -1,6 +1,6 @@
 ### Python
 #### Standard, return index which value == target
-```
+```python
 def bs(sortedArray, target):
     left, right = 0, len(sortedArray)
     while left <= right:
@@ -15,7 +15,7 @@ def bs(sortedArray, target):
 ```
 
 #### Rightmost, return max-index which value <= target, when duplicates or non-exact matching
-```
+```python
 def bs(sortedArray, target):
     left, right = 0, len(sortedArray)
     while left < right:
@@ -28,7 +28,7 @@ def bs(sortedArray, target):
 ```
 
 #### Leftmost, return min-index which value >= target, when duplicates or non-exact matching
-```
+```python
 def bs(sortedArray, target):
     left, right = 0, len(sortedArray)
     while left < right:
