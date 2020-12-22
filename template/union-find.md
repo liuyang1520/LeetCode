@@ -19,7 +19,7 @@ len(set(map(find, f)))
 ```
 
 #### List
-```
+```python
 class UnionFind:
     def __init__(self, n):
         self.p = list(range(n))
